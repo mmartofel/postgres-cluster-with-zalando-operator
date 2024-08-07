@@ -22,7 +22,7 @@ spec:
     parameters:  # Expert section
       shared_buffers: "32MB"
   volume:
-    size: 120Gi
+    size: 20Gi
     # Uncomment the following line to specify your own storage class, otherwise use the default.
     # storageClass: <REPLACE>
   resources:
