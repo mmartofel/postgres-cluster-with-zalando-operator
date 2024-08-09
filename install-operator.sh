@@ -1,4 +1,5 @@
-
+# Operator install instructions available here:
+# https://github.com/zalando/postgres-operator/blob/master/docs/quickstart.md#deployment-options
 # apply the manifests in the following order
 oc new-project instana-postgres
 oc apply -f postgres-scc.yaml -n instana-postgres
